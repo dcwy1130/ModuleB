@@ -1,0 +1,23 @@
+PODS:
+  - MGJRouter (0.10.0)
+  - ModuleB (2.1.0):
+    - MGJRouter
+
+DEPENDENCIES:
+  - ModuleB (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - MGJRouter
+
+EXTERNAL SOURCES:
+  ModuleB:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MGJRouter: 15d94541eb2cc81eff7d577337288feb7ae9575f
+  ModuleB: addeb89b18c352d39b38d2500edd89ba2bdec27c
+
+PODFILE CHECKSUM: 5fe14bbecaa065217ff1a4dccad10c4f83d85b9c
+
+COCOAPODS: 1.5.0
