@@ -1,5 +1,8 @@
 use_frameworks!
 
+source 'https://github.com/dcwy1130/PrivatePods.git'
+source 'https://github.com/CocoaPods/Specs.git'
+
 target 'ModuleB_Example' do
   pod 'ModuleB', :path => '../'
 
