@@ -10,8 +10,9 @@
 #endif
 #endif
 
-#import "MGJRouter.h"
+#import "YModuleManager.h"
+#import "YRouter.h"
 
-FOUNDATION_EXPORT double MGJRouterVersionNumber;
-FOUNDATION_EXPORT const unsigned char MGJRouterVersionString[];
+FOUNDATION_EXPORT double YRouterVersionNumber;
+FOUNDATION_EXPORT const unsigned char YRouterVersionString[];
 

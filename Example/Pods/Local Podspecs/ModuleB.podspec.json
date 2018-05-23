@@ -20,7 +20,7 @@
   },
   "source_files": "ModuleB/Classes/**/*",
   "dependencies": {
-    "MGJRouter": [
+    "YRouter": [
 
     ]
   }

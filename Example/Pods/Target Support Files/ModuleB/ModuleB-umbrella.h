@@ -10,6 +10,9 @@
 #endif
 #endif
 
+#import "MBFunction_1.h"
+#import "ModuleBManager.h"
+#import "ModuleBProtocol.h"
 #import "BViewController.h"
 
 FOUNDATION_EXPORT double ModuleBVersionNumber;

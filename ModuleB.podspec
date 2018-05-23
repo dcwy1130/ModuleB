@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ModuleB'
-  s.version          = '2.1.0'
+  s.version          = '2.1.1'
   s.summary          = 'Compontents of ModuleB.'
 
 # This description is used to generate tags and improve search results.
@@ -38,7 +38,7 @@ ModuleB privoder B pags and B functions.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  s.dependency 'MGJRouter'
+  s.dependency 'YRouter'
 end
 
 
