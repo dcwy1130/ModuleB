@@ -21,15 +21,15 @@
     return instance;
 }
 
-- (instancetype)init {
-    if (self = [super init]) {
-        [self registerModule];
-    }
-    return self;
++ (void)load {
+    [YModuleManager registerClass:[MBFunction_1 class] forProtocol:@protocol(ModuleBProtocol)];
 }
 
-- (void)registerModule {
-    [YModuleManager registerClass:[MBFunction_1 class] forProtocol:@protocol(ModuleBProtocol)];
+- (instancetype)init {
+    if (self = [super init]) {
+        
+    }
+    return self;
 }
 
 // MARK: - YModuleProtocol
