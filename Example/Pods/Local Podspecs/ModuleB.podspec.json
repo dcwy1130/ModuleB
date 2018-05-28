@@ -1,6 +1,6 @@
 {
   "name": "ModuleB",
-  "version": "2.1.0",
+  "version": "2.1.2",
   "summary": "Compontents of ModuleB.",
   "description": "ModuleB privoder B pags and B functions.",
   "homepage": "https://github.com/dcwy1130/ModuleB",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/dcwy1130/ModuleB.git",
-    "tag": "2.1.0"
+    "tag": "2.1.2"
   },
   "platforms": {
     "ios": "8.0"

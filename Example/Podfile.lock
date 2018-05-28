@@ -1,7 +1,7 @@
 PODS:
-  - ModuleB (2.1.0):
+  - ModuleB (2.1.2):
     - YRouter
-  - YRouter (2.1.1)
+  - YRouter (2.1.5)
 
 DEPENDENCIES:
   - ModuleB (from `../`)
@@ -15,8 +15,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ModuleB: a5b73b5c675f1f9a29c578a44bb413afbe1e4a6b
-  YRouter: 862d685fb9b35d8b6c4f27b8fc39fead4374f997
+  ModuleB: d0f89b217c3803483d2ccf428b7bf7eb47869c2c
+  YRouter: c5effacde7fa37fc757a266f805a9b1694601964
 
 PODFILE CHECKSUM: b05282ef98280fd47dc3852c5537c88b91d9d349
 

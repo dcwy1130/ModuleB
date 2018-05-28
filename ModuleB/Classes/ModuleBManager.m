@@ -21,7 +21,13 @@
     return instance;
 }
 
+Y_EXTERN void YRegisterModule(Class); \
++ (NSString *)moduleName {
+    return @"ModuleB";
+}
+
 + (void)load {
+    YRegisterModule(self);
     [YModuleManager registerClass:[MBFunction_1 class] forProtocol:@protocol(ModuleBProtocol)];
 }
 
